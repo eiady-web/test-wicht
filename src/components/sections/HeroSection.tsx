@@ -86,7 +86,7 @@ export default function HeroSection({ onExploreMenu }: HeroSectionProps) {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/images/hero-bg.jpg"
+          src="images/hero-bg.jpg"
           alt="Wicht Background"
           className="w-full h-full object-cover opacity-60"
         />

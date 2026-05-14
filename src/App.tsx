@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ReactLenis } from 'lenis/react';
 import HomePage from '@/pages/HomePage';
 import AdminLayout from '@/components/admin/layout/AdminLayout';
@@ -19,7 +19,7 @@ import AdminSettings from '@/pages/admin/AdminSettings';
 export default function App() {
   return (
     <ReactLenis root>
-      <Router>
+      <Router basename="/test-wicht">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/admin/login" element={<AdminLogin />} />

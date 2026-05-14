@@ -68,7 +68,7 @@ export default function Footer({ onScrollTo }: FooterProps) {
             <div className="space-y-4 text-parchment/40 text-sm font-bold">
               <p>+218 91 000 0000</p>
               <p>info@wicht.ly</p>
-              <p>{lang === 'ar' ? 'طرابلس، ليبيا' : 'Tripoli, Libya'}</p>
+              <p>{lang === 'ar' ? 'الرياض، المملكة العربية السعودية' : 'Riyadh, Saudi Arabia'}</p>
             </div>
           </div>
 

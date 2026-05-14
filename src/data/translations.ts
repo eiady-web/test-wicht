@@ -24,6 +24,17 @@ export const translations = {
       open: 'مفتوح',
       closed: 'مغلق',
       call: 'اتصال',
+    },
+    menu: {
+      title: 'قائمة الطعام الاستثنائية',
+      subtitle: 'نختار أجود المكونات المحلية لنقدم لك مذاقاً لا يُنسى',
+      all: 'الكل',
+      addToCart: 'إضافة للسلة',
+    },
+    offers: {
+      title: 'عروض ويشت الحصرية',
+      subtitle: 'استمتع بأفضل الوجبات بأسعار خاصة لفترة محدودة',
+      tag: 'عرض خاص',
     }
   },
   en: {
@@ -51,6 +62,17 @@ export const translations = {
       open: 'Open',
       closed: 'Closed',
       call: 'Call',
+    },
+    menu: {
+      title: 'Our Exceptional Menu',
+      subtitle: 'We select the finest local ingredients to give you an unforgettable taste',
+      all: 'All',
+      addToCart: 'Add to Cart',
+    },
+    offers: {
+      title: 'Exclusive Wicht Offers',
+      subtitle: 'Enjoy the best meals at special prices for a limited time',
+      tag: 'Special Offer',
     }
   },
 };

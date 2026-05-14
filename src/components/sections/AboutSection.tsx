@@ -59,7 +59,7 @@ export default function AboutSection() {
               {[
                 { label: lang === 'ar' ? 'مكونات طازجة' : 'Fresh Ingredients', val: '100%' },
                 { label: lang === 'ar' ? 'وصفة سرية' : 'Secret Recipe', val: '24' },
-                { label: lang === 'ar' ? 'فرع في ليبيا' : 'Branches in Libya', val: '8+' },
+                { label: lang === 'ar' ? 'فرع في المملكة' : 'Branches in KSA', val: '8+' },
               ].map((stat, idx) => (
                 <div key={idx}>
                   <div className="text-3xl font-black text-amber-fire mb-1">{stat.val}</div>
@@ -78,7 +78,7 @@ export default function AboutSection() {
               className="relative aspect-square rounded-[40px] overflow-hidden shadow-2xl"
             >
               <img 
-                src="/images/about/about-primary.jpg" 
+                src="/test-wicht/images/about/about-primary.jpg" 
                 alt="Brand Story"
 
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"

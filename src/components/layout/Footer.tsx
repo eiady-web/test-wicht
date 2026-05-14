@@ -66,8 +66,8 @@ export default function Footer({ onScrollTo }: FooterProps) {
           <div className="lg:col-span-1">
             <h4 className="text-cream font-black text-lg mb-8">{t.nav.contact}</h4>
             <div className="space-y-4 text-parchment/40 text-sm font-bold">
-              <p>+218 91 000 0000</p>
-              <p>info@wicht.ly</p>
+              <p>920031942</p>
+              <p>info@wicht.sa</p>
               <p>{lang === 'ar' ? 'الرياض، المملكة العربية السعودية' : 'Riyadh, Saudi Arabia'}</p>
             </div>
           </div>

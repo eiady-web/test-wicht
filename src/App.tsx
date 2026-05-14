@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { ReactLenis } from 'lenis/react';
 import HomePage from '@/pages/HomePage';
 import AdminLayout from '@/components/admin/layout/AdminLayout';
@@ -19,11 +19,9 @@ import AdminSettings from '@/pages/admin/AdminSettings';
 export default function App() {
   return (
     <ReactLenis root>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          
-          {/* Admin Routes */}
           <Route path="/admin/login" element={<AdminLogin />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route index element={<AdminDashboard />} />
@@ -41,7 +39,7 @@ export default function App() {
             <Route path="settings" element={<AdminSettings />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </Router>
     </ReactLenis>
   );
 }

@@ -1,0 +1,43 @@
+import type { Branch } from '@/types';
+
+export const branches: Branch[] = [
+  {
+    id: 'tripoli-center',
+    name: 'ويشت — وسط المدينة (طرابلس)',
+    nameEn: 'Wicht — City Center (Tripoli)',
+    city: 'Tripoli',
+    address: 'شارع الرشيد، طرابلس',
+    addressEn: 'Al-Rasheed St, Tripoli',
+    status: 'open',
+    hours: '10:00 AM - 12:00 AM',
+    days: 'Daily',
+    phone: '+218 91 123 4567',
+    mapsUrl: 'https://maps.google.com/?q=Tripoli+Center',
+  },
+  {
+    id: 'benghazi-naser',
+    name: 'ويشت — شارع فينيسيا (بنغازي)',
+    nameEn: 'Wicht — Venice St (Benghazi)',
+    city: 'Benghazi',
+    address: 'شارع فينيسيا، بنغازي',
+    addressEn: 'Venice St, Benghazi',
+    status: 'open',
+    hours: '11:00 AM - 01:00 AM',
+    days: 'Daily',
+    phone: '+218 92 123 4567',
+    mapsUrl: 'https://maps.google.com/?q=Benghazi+Venice+St',
+  },
+  {
+    id: 'misrata-main',
+    name: 'ويشت — مصراتة الرئيسية',
+    nameEn: 'Wicht — Misrata Main',
+    city: 'Misrata',
+    address: 'وسط المدينة، مصراتة',
+    addressEn: 'Downtown, Misrata',
+    status: 'closed',
+    hours: '12:00 PM - 11:00 PM',
+    days: 'Daily',
+    phone: '+218 91 765 4321',
+    mapsUrl: 'https://maps.google.com/?q=Misrata+Main',
+  },
+];

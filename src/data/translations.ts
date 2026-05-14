@@ -6,6 +6,7 @@ export const translations = {
       about: 'عن ويشت',
       locations: 'الفروع',
       contact: 'اتصل بنا',
+      orderNow: 'اطلب الآن',
     },
     hero: {
       title: 'صُنِع ليبهرك.',
@@ -17,6 +18,13 @@ export const translations = {
       rights: '© 2024 ويشت. جميع الحقوق محفوظة للمملكة العربية السعودية',
       madeWith: 'صُنع بكل حب في المملكة العربية السعودية',
     },
+    branches: {
+      title: 'فروعنا في المملكة',
+      subtitle: 'تفضل بزيارتنا في أحد فروعنا المنتشرة لتعيش تجربة ويشت الحقيقية',
+      open: 'مفتوح',
+      closed: 'مغلق',
+      call: 'اتصال',
+    }
   },
   en: {
     nav: {
@@ -25,6 +33,7 @@ export const translations = {
       about: 'About Wicht',
       locations: 'Branches',
       contact: 'Contact Us',
+      orderNow: 'Order Now',
     },
     hero: {
       title: 'Crafted to Hit Different.',
@@ -36,5 +45,12 @@ export const translations = {
       rights: '© 2024 Wicht. All rights reserved in Saudi Arabia',
       madeWith: 'Made with love in Saudi Arabia',
     },
+    branches: {
+      title: 'Our Branches in KSA',
+      subtitle: 'Visit us at one of our locations to experience the true taste of Wicht',
+      open: 'Open',
+      closed: 'Closed',
+      call: 'Call',
+    }
   },
 };

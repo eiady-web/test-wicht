@@ -86,7 +86,7 @@ export default function HeroSection({ onExploreMenu }: HeroSectionProps) {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="images/hero-bg.jpg"
+          src="/test-wicht/images/hero-bg.jpg"
           alt="Wicht Background"
           className="w-full h-full object-cover opacity-60"
         />
@@ -119,7 +119,7 @@ export default function HeroSection({ onExploreMenu }: HeroSectionProps) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center max-w-[900px] px-6">
+      <div className="relative z-10 text-center max-w-[900px] px-6 -mt-20">
         {/* Small brand tag above */}
         <motion.div
           initial={{ opacity: 0, letterSpacing: '0.1em' }}
@@ -135,7 +135,7 @@ export default function HeroSection({ onExploreMenu }: HeroSectionProps) {
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-display font-extrabold text-cream text-5xl sm:text-7xl md:text-8xl lg:text-[100px] leading-[0.95] text-glow-strong mb-8 tracking-tight"
+          className="font-display font-extrabold text-cream text-5xl sm:text-7xl md:text-8xl lg:text-[100px] leading-[1.1] text-glow-strong mb-8 tracking-tight"
         >
           صُنِع ليبهرك.
         </h1>

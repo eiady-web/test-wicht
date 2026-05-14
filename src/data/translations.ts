@@ -35,6 +35,13 @@ export const translations = {
       title: 'عروض ويشت الحصرية',
       subtitle: 'استمتع بأفضل الوجبات بأسعار خاصة لفترة محدودة',
       tag: 'عرض خاص',
+    },
+    cart: {
+      title: 'سلة المشتريات',
+      items: 'أصناف',
+      empty: 'السلة فارغة حالياً',
+      total: 'المجموع الإجمالي',
+      checkout: 'إتمام الطلب',
     }
   },
   en: {
@@ -73,6 +80,13 @@ export const translations = {
       title: 'Exclusive Wicht Offers',
       subtitle: 'Enjoy the best meals at special prices for a limited time',
       tag: 'Special Offer',
+    },
+    cart: {
+      title: 'Shopping Cart',
+      items: 'items',
+      empty: 'Your cart is currently empty',
+      total: 'Total Amount',
+      checkout: 'Checkout Now',
     }
   },
 };

@@ -108,3 +108,5 @@ export default function Footer({ onScrollTo }: FooterProps) {
     </footer>
   );
 }
+
+// Fixed translations

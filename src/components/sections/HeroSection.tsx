@@ -29,6 +29,8 @@ export default function HeroSection({ onExploreMenu }: HeroSectionProps) {
           span.textContent = word + (idx < words.length - 1 ? '\u00A0' : ''); // Use non-breaking space
           span.style.display = 'inline-block';
           span.style.overflow = 'hidden';
+          span.style.paddingTop = '0.2em';
+          span.style.marginTop = '-0.2em';
           span.className = 'word-wrapper';
           
           const innerSpan = document.createElement('span');
@@ -135,7 +137,7 @@ export default function HeroSection({ onExploreMenu }: HeroSectionProps) {
         {/* Headline */}
         <h1
           ref={headlineRef}
-          className="font-display font-extrabold text-cream text-5xl sm:text-7xl md:text-8xl lg:text-[100px] leading-[1.1] text-glow-strong mb-8 tracking-tight"
+          className="font-display font-extrabold text-cream text-5xl sm:text-7xl md:text-8xl lg:text-[100px] leading-[1.3] text-glow-strong mb-8 tracking-tight pt-4"
         >
           صُنِع ليبهرك.
         </h1>
